@@ -1153,6 +1153,11 @@ function get_available_social_icons() {
 			'icon'        => get_theme_file_path( 'dist/images/social/instagram.svg' ),
 			'placeholder' => 'https://instagram.com/user',
 		),
+		'reddit'    => array(
+			'label'       => esc_html__( 'Reddit', 'go' ),
+			'icon'        => get_theme_file_path( 'dist/images/social/reddit.svg' ),
+			'placeholder' => 'https://www.reddit.com/user/user',
+		),
 		'linkedin'  => array(
 			'label'       => esc_html__( 'LinkedIn', 'go' ),
 			'icon'        => get_theme_file_path( 'dist/images/social/linkedin.svg' ),

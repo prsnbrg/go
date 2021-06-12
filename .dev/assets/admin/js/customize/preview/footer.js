@@ -91,6 +91,16 @@ export default () => {
 		} );
 	} );
 
+	wp.customize( 'social_icon_reddit', ( value ) => {
+		value.bind( ( to ) => {
+			if ( to ) {
+				$( '.social-icon-reddit' ).removeClass( 'display-none' );
+			} else {
+				$( '.social-icon-reddit' ).addClass( 'display-none' );
+			}
+		} );
+	} );
+
 	wp.customize( 'social_icon_linkedin', ( value ) => {
 		value.bind( ( to ) => {
 			if ( to ) {
