@@ -1168,6 +1168,11 @@ function get_available_social_icons() {
 			'icon'        => get_theme_file_path( 'dist/images/social/youtube.svg' ),
 			'placeholder' => 'https://youtube.com/user',
 		),
+		'twitch'   => array(
+			'label'       => esc_html__( 'Twitch', 'go' ),
+			'icon'        => get_theme_file_path( 'dist/images/social/twitch.svg' ),
+			'placeholder' => 'https://www.twitch.tv/user',
+		),
 		'github'    => array(
 			'label'       => esc_html__( 'GitHub', 'go' ),
 			'icon'        => get_theme_file_path( 'dist/images/social/github.svg' ),

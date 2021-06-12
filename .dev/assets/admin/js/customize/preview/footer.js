@@ -121,6 +121,16 @@ export default () => {
 		} );
 	} );
 
+	wp.customize( 'social_icon_twitch', ( value ) => {
+		value.bind( ( to ) => {
+			if ( to ) {
+				$( '.social-icon-twitch' ).removeClass( 'display-none' );
+			} else {
+				$( '.social-icon-twitch' ).addClass( 'display-none' );
+			}
+		} );
+	} );
+
 	wp.customize( 'social_icon_github', ( value ) => {
 		value.bind( ( to ) => {
 			if ( to ) {
